@@ -169,3 +169,27 @@ console.log(scoreDolphin, scoreavgKoala);
 checkWinner(scoreDolphin, scoreavgKoala);
 
 ///// Coding Challenge #2 /////
+
+const calcTip = function(a){
+    let btw50to300 = 0.15;
+    let anyOtherAmount = 0.2;
+    if(a >= 50 && a <= 300){
+        return a * btw50to300;
+    } else{
+        return a * anyOtherAmount;
+    }
+};
+console.log(calcTip(100));
+const bills = [125, 555, 44];
+
+const tips = [];
+tips.push(calcTip(125));
+tips.push(calcTip(555));
+tips.push(calcTip(44));
+console.log(tips);
+
+const total = [];
+total.push(`${tips[0] + bills[0]}`);
+total.push(`${tips[1] + bills[1]}`);
+total.push(`${tips[2] + bills[2]}`);
+console.log(total);
