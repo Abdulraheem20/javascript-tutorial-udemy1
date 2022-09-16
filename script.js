@@ -49,12 +49,12 @@ console.log(typeof "Shola");
 // console.log(ageTaiwo, ageAde, averageAge)
 
 //////String and Template literals///////
-const firstName = "Abdulraheem";
-const job = "teacher";
-const birthYear = 1991;
-const year = 2037;
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + 'years old' + job + '!';
-console.log(jonas);
+// const firstName = "Abdulraheem";
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2037;
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + 'years old' + job + '!';
+// console.log(jonas);
 
 
 
